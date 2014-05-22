@@ -1,0 +1,4 @@
+C:\Study\Git\Src\设计模式学习\简单工厂模式\bin\Debug\简单工厂模式.exe
+C:\Study\Git\Src\设计模式学习\简单工厂模式\bin\Debug\简单工厂模式.pdb
+C:\Study\Git\Src\设计模式学习\简单工厂模式\obj\x86\Debug\简单工厂模式.exe
+C:\Study\Git\Src\设计模式学习\简单工厂模式\obj\x86\Debug\简单工厂模式.pdb
