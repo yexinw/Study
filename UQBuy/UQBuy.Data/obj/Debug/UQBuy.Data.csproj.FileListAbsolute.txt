@@ -1,0 +1,12 @@
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\UQBuy.Data.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\UQBuy.Data.pdb
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.Extended.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.Extended.xml
+D:\Study\Git\Study\UQBuy\UQBuy.Data\obj\Debug\UQBuy.Data.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Data\obj\Debug\UQBuy.Data.pdb
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\UQBuy.Data.dll.config
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.xml
+D:\Study\Git\Study\UQBuy\UQBuy.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study\Git\Study\UQBuy\UQBuy.Data\obj\Debug\UQBuy.Data.csprojResolveAssemblyReference.cache

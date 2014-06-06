@@ -1,0 +1,4 @@
+D:\Study\Git\Study\UQBuy\UQBuy.Core\bin\Debug\UQBuy.Core.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Core\bin\Debug\UQBuy.Core.pdb
+D:\Study\Git\Study\UQBuy\UQBuy.Core\obj\Debug\UQBuy.Core.dll
+D:\Study\Git\Study\UQBuy\UQBuy.Core\obj\Debug\UQBuy.Core.pdb

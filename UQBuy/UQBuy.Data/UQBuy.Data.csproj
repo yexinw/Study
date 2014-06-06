@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2073040F-886F-474B-8EFD-E30FC71B1611}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UQBuy.Data</RootNamespace>
+    <AssemblyName>UQBuy.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1-beta1\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.Extended">
+      <HintPath>..\packages\EntityFramework.Extended.6.1.0.95\lib\net40\EntityFramework.Extended.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1-beta1\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Business.cs" />
+    <Compile Include="Models\Business_Action.cs" />
+    <Compile Include="Models\Business_Pic.cs" />
+    <Compile Include="Models\Enterprise.cs" />
+    <Compile Include="Models\Enterprise_Action.cs" />
+    <Compile Include="Models\Enterprise_Level.cs" />
+    <Compile Include="Models\Enterprise_Level_Relation.cs" />
+    <Compile Include="Models\Enterprise_Services.cs" />
+    <Compile Include="Models\Enterprise_Services_Action.cs" />
+    <Compile Include="Models\Func_Relation.cs" />
+    <Compile Include="Models\Log_Action.cs" />
+    <Compile Include="Models\Mapping\BusinessMap.cs" />
+    <Compile Include="Models\Mapping\Business_ActionMap.cs" />
+    <Compile Include="Models\Mapping\Business_PicMap.cs" />
+    <Compile Include="Models\Mapping\EnterpriseMap.cs" />
+    <Compile Include="Models\Mapping\Enterprise_ActionMap.cs" />
+    <Compile Include="Models\Mapping\Enterprise_LevelMap.cs" />
+    <Compile Include="Models\Mapping\Enterprise_Level_RelationMap.cs" />
+    <Compile Include="Models\Mapping\Enterprise_ServicesMap.cs" />
+    <Compile Include="Models\Mapping\Enterprise_Services_ActionMap.cs" />
+    <Compile Include="Models\Mapping\Func_RelationMap.cs" />
+    <Compile Include="Models\Mapping\Log_ActionMap.cs" />
+    <Compile Include="Models\Mapping\Role_FunctionMap.cs" />
+    <Compile Include="Models\Mapping\Role_RelationMap.cs" />
+    <Compile Include="Models\Mapping\Site_MessageMap.cs" />
+    <Compile Include="Models\Mapping\Tags_RelationMap.cs" />
+    <Compile Include="Models\Mapping\Type_IndustryMap.cs" />
+    <Compile Include="Models\Mapping\UserbasicMap.cs" />
+    <Compile Include="Models\Mapping\User_AuthenticationMap.cs" />
+    <Compile Include="Models\Mapping\User_IntegralMap.cs" />
+    <Compile Include="Models\Mapping\User_NoteMap.cs" />
+    <Compile Include="Models\Mapping\User_RemarkMap.cs" />
+    <Compile Include="Models\Mapping\User_RoleMap.cs" />
+    <Compile Include="Models\Mapping\User_Service_ActionMap.cs" />
+    <Compile Include="Models\Mapping\User_TagsMap.cs" />
+    <Compile Include="Models\Mapping\User_VisitcardMap.cs" />
+    <Compile Include="Models\Role_Function.cs" />
+    <Compile Include="Models\Role_Relation.cs" />
+    <Compile Include="Models\Site_Message.cs" />
+    <Compile Include="Models\Tags_Relation.cs" />
+    <Compile Include="Models\Type_Industry.cs" />
+    <Compile Include="Models\UQBuyContext.cs" />
+    <Compile Include="Models\Userbasic.cs" />
+    <Compile Include="Models\User_Authentication.cs" />
+    <Compile Include="Models\User_Integral.cs" />
+    <Compile Include="Models\User_Note.cs" />
+    <Compile Include="Models\User_Remark.cs" />
+    <Compile Include="Models\User_Role.cs" />
+    <Compile Include="Models\User_Service_Action.cs" />
+    <Compile Include="Models\User_Tags.cs" />
+    <Compile Include="Models\User_Visitcard.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
